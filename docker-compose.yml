@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  subber:
+    build: .
+    command: 'python3 -u main.py'
+    volumes:
+      - .:/app
